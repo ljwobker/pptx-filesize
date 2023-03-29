@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "debug current file",
+            "type": "python",
+            "request": "launch",
+            "cwd": "/users/lwobker/ws/gitz/py-ppt",
+            "program": "image-change.py",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
