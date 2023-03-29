@@ -6,7 +6,7 @@ import os
 
 sizedict = {}
 
-start_path = "/dtop/hack"
+start_path = "./temp/"
 for (path,dir,files) in os.walk(start_path):
     for file in files:
         fstat = os.stat(os.path.join(path, file))
